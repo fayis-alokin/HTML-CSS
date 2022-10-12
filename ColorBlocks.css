@@ -1,0 +1,80 @@
+.b1b2{
+    background-color: aqua;
+    display: flex;
+}
+ .b1{
+    background-color: aquamarine;
+    height: 200px;
+    text-align: justify;
+    padding: 27px;
+    border: solid 1px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 60%;
+
+ }
+
+ .b2{
+    background-color: bisque;
+    height: 200px;
+    text-align: justify;
+    padding: 27px;
+    border: solid 1px;
+    
+    width: 40%;
+ }
+
+.b3b4{
+    background-color: blue;
+    display: flex;
+}
+
+.b3{
+    background-color: coral;
+    height: 200px;
+    text-align: justify;
+    padding: 27px;
+    border: solid 1px;
+    width: 40%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.b4{
+    background-color: tomato;
+    height: 200px;
+    text-align: justify;
+    padding: 27px;
+    border: solid 1px;
+    width: 60%;
+    font-family: sans-serif;
+}
+
+.b5{
+    background-color: blueviolet;
+    border: solid 1px;
+    height: 100px;
+    padding: 27px;
+    font-size: 20px;
+}
+
+.b6b7{
+    background-color: yellowgreen;
+    display: flex;
+}
+
+.b6{
+    background-color: springgreen;
+    height: 200px;
+    text-align: justify;
+    padding: 27px;
+    border: solid 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.b7{
+    background-color: slategrey;
+    height: 200px;
+    text-align: justify;
+    padding: 27px;
+    border: solid 1px;
+    font-style: unset;
+}

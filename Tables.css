@@ -1,0 +1,39 @@
+table{
+    border: solid 2px black;
+    border-collapse: collapse;
+    width: 800px;
+    height: 256px;
+    position: absolute;
+    left: 235px;
+    top: 150px;
+}
+
+th,td{
+    border: solid 1px black;
+    border-collapse: collapse;
+    height: 20px;
+    width: 40px;
+}
+td{
+    text-align: center;
+}
+
+.main{
+    background-color: rgb(238, 166, 71);
+}
+
+
+
+tr:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+}
+  
+  td:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+}
+
+.sub{
+    background-color: rgb(199, 170, 133);
+}
+
+

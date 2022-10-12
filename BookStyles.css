@@ -1,0 +1,163 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.main{
+    margin: auto;
+    /* height: auto; */
+    width: auto;
+}
+.main-head{
+    font-size: 40px;
+    background-color: #90C8AC;
+    width: 100%;
+    position: fixed;
+    height: auto;
+    top:-10px;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+@media screen and (max-width:1024px) {
+    .main-head{
+        padding-top: 30px;
+        /* padding-bottom: 10px; */
+
+    }
+    
+}
+
+
+
+h2{
+    font-size: 40px;
+    margin-left: 430px;
+    width: 25%;
+    
+}
+
+@media screen and (max-width:1024px){
+    h2{
+        font-size:25px;
+        margin-left: 150px;
+        width: 100%;
+    }
+    
+}
+
+.books{
+    background-color: #C4DFAA;
+    height: auto;
+    width:100%;
+    margin-top: 57px;
+    
+
+}
+.book{
+    padding: auto;
+    height:40px;
+}
+.right{
+    background-color: azure;
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-top: 27px;
+}
+.left{
+    padding: 10px;
+    padding-right: 25px;
+    padding-left: 50px;
+
+}
+
+@media screen and (max-width:1024px){
+    .left{
+        margin-left: 30px;
+    }
+    
+}
+.author{
+    margin-top: 10px;
+    
+}
+.button{
+    margin-top: 10px;
+}
+
+img{
+    height: 292px;
+    width: auto;
+    margin-top: 35px;
+    margin-bottom: 2px;
+}
+.paragraph{
+    margin-top: 15px;
+}
+
+#bookname{
+    font-size: 30px;
+    font-family: monospace;
+    padding: 1px;
+}
+#authorname{
+    font-family: sans-serif;
+    /* margin-top: -35px; */
+    padding: auto;
+}
+#description{
+    text-align: justify;
+    /* padding-right: 350px; */
+    font-family: 'Noto Sans Ethiopic', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+}
+
+
+
+.row{
+    display: flex;
+    /* width: auto; */
+    background-color: azure;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* margin-top: 57px; */
+    margin-bottom: -41px;
+    border-radius: 3px;
+    
+   
+}
+
+@media screen and (max-width:1024px){
+    .row{
+        display: block;
+    }
+    
+}
+/*  */
+
+@media screen and(max-width:1024px) {
+    
+    #row2 .left,#row4 .left{
+        margin-left: auto;
+    }
+}
+button{
+    height: 35px;
+    width: 100px;
+    background-color: #73A9AD;
+    color: beige;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: #d1a18c;
+}
+
+#row2,#row3,#row4{
+    margin-top: 40px;
+}
+
+

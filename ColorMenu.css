@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.navbar{
+    width: 100%;
+    background-color: aquamarine;
+    text-align: center;
+    position: fixed;
+    margin: auto;
+
+}
+.menu{
+    padding: 25px;
+    
+
+    text-align: center;
+
+}
+
+ul{
+    display: inline;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+li{
+    display: inline;
+    padding: 26px;
+}
+
+
+/* navbar hover color */
+#navred:hover{
+    background-color: red;
+}
+#navblue:hover{
+    background-color: blue;
+}
+#navgreen:hover{
+    background-color: green;
+}
+#navyellow:hover{
+    background-color: yellow;
+}
+#navorange:hover{
+    background-color: orange;
+    
+}
+#navpink:hover{
+    background-color: pink;
+}
+#navindigo:hover{
+    background-color: indigo;
+}
+
+
+
+/* box color */
+.box{
+    height: 500px;
+}
+
+#red{
+    background-color: red;
+}
+#blue{
+    background-color: blue;
+}
+#green{
+    background-color: green;
+}
+#orange{
+    background-color: orange;
+}
+#yellow{
+    background-color: yellow;
+}
+#pink{
+    background-color: pink;
+}
+#indigo{
+    background-color: indigo;
+}
+
